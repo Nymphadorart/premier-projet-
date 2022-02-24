@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Karla';
+    src: url("assets/css/font/Karla/Karla-VariableFont_wght.ttf");
+}
+ @font-face {
+     font-family: 'Rubik';
+     src: url("assets/css/font.Rubik/Rubik-italic-VariableFont_wght.ttf");
+ }
+
+
+body {
+    background: #E5E5E5;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -25px;
+    margin-left: 320px;
+    gap: 2px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.shades {
+    font-family: Rubik;
+}
+
+div.bloc1 {
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    p.services {
+        
+        font-family: Karla;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 12px;
+        
+        letter-spacing: 2.8125px;
+        text-transform: uppercase;
+        
+        color: #666666;
+    }
+
+    h1 {
+        font-family: Karla;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 45px;
+        
+        letter-spacing: -4px;
+
+        color: #1F1F1F;
+    }
+
+    .enter-mail {
+        input {
+            border-radius: 5px;
+            padding: 7px 7px 7px 7px;
+            border: 0px;
+        }
+        align-content: space-between;
+        button {
+            background-color: #FC593B;
+            border-radius: 5px;
+            color: white;
+            padding: 7px 28px 7px 28px;
+            border: 0px;
+        }
+    }
+}
+
+
+
+
+
+

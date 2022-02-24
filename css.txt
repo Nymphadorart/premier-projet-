@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Karla';
+    src: url("assets/css/font/Karla/Karla-VariableFont_wght.ttf");
+}
+
+
+
+body {
+    background: #E5E5E5;
+}
+
+
+.logo {
+    position: absolute;
+    left: 8.18%;
+    right: 89.6%;
+    top: 0.17%;
+    bottom: 99.74%;
+}
+
+div.bloc1 {
+    p.services {
+        position: absolute;
+        height: 12px;
+        left: 30.37%;
+        right: 24.77%;
+        top: calc(50% - 12px/2 - 3240px);
+        
+        font-family: Karla;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 12px;
+        
+        text-align: center;
+        letter-spacing: 2.8125px;
+        text-transform: uppercase;
+        
+        color: #666666;
+    }
+
+    h1 {
+        position: absolute;
+        left: 6.78%;
+        right: 8.88%;
+        top: 1.55%;
+        bottom: 97.09%;
+
+        font-family: Karla;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 45px;
+        
+
+        text-align: center;
+        letter-spacing: -4px;
+
+        color: #1F1F1F;
+    }
+
+    .enter-mail {
+        input {
+            border-radius: 5px;
+            padding: 7px 7px 7px 7px;
+            border: 0px;
+        }
+        align-content: space-between;
+        button {
+            background-color: #FC593B;
+            border-radius: 5px;
+            color: white;
+            padding: 7px 28px 7px 28px;
+            border: 0px;
+        }
+    }
+}
