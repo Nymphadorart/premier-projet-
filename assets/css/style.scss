@@ -1,0 +1,418 @@
+// typo
+
+@font-face {
+    font-family: 'Karla';
+    src: url(/assets/fonts/Karla-VariableFont_wght.ttf);
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.container {
+    margin-left: 10%;
+    margin-right:10%;
+    
+}
+
+.under_background_telephone {
+    
+    background: #258AFF;
+
+}
+
+
+//Tout le texte du bloc 2eme section avec Background blue-------------------------
+
+.under_All{
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 15x;
+    padding-bottom: 50px;
+    color: white;
+
+& .under{
+    width: 150px;
+    letter-spacing :3px;
+    padding-bottom: 25px;
+    line-height: 17.8px;
+    }
+
+
+& .under_h1{
+    font-family: 'Karla';
+    font-size: 30px;
+    letter-spacing :-1px;
+    padding-bottom: 25px;
+    line-height: 30px;
+        }
+
+&     
+.under_text{
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing :1px;
+    line-height: 32px;
+    
+    padding-bottom: 25px;
+}
+
+
+& .under_button{
+    background: white;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+    height: 30px;
+    font-size: 12px;
+    color: #258AFF;
+}
+}
+
+ // section 3 --------------------------------   
+.white {
+    background: #E5E5E5;
+  }
+//Tout le texte du bloc 3eme section-------------------------
+
+.white_All{
+    padding-top : 70px;
+    font-family : 'Karla';
+    font-weight : 700;
+    font-size : 15px;
+    padding-bottom: 50px;
+    
+
+& .white{
+    padding-left: 10px;
+    letter-spacing :2.81px;
+    padding-bottom: 25px;
+    line-height: 17.5px;
+    color:#258AFF;
+    }
+
+
+& .white_h1{
+    font-family: 'Karla';
+    font-size: 30px;
+    letter-spacing :-1px;
+    padding-bottom: 25px;
+    line-height: 30px;
+        }
+
+& .white_text{
+    font-family: 'Karla';
+    font-weight: 400;
+    letter-spacing :1px;
+    line-height: 32px;
+    color: #666666;
+    
+    padding-bottom: 25px;
+}
+
+}
+/* Flexbx pour les deux Pencil et Agenda */
+.flex{
+    display: flex;
+    justify-content: center;
+    
+    }
+
+
+.white_flexbox{
+    
+    text-align: center;
+    width:  250px;
+    padding-bottom: 50px;
+
+    & img{
+        
+    width: 20%;}
+
+    & .white_big_text{
+        font-family: 'Karla';
+        font-size: 20px;
+        font-weight: 700;
+        padding-bottom: px;
+        line-height: 28px;
+        color: black;
+        
+    }
+
+    & .white_little_text{
+        font-family: 'Karla';
+        font-size: 15px;
+        font-weight: 400;   
+        line-height: 28px;
+        color:  #666666;
+        
+    }
+
+    }
+
+.white_img{
+    display: flex;
+    justify-content: center;
+
+    & img{
+        width: 70%;
+        padding-bottom: 30px;
+        
+    }
+}
+
+.white_line{
+    display: flex;
+    justify-content: center;
+
+& .line{
+    content:'';
+    background: white;
+    height: 3px;
+    width: 300px;
+}
+}
+
+// section 3 copier coller css de la 2 --------------
+
+.white_h2 {
+
+    width: 200px;
+}
+// blox flex en blanc ---------------
+
+.flex{
+    padding-bottom: 50px;
+    
+}
+
+.flex_whitebox{
+    background:white;
+
+}
+
+.whitebox_flex{
+    display: flex;
+    align-items: center;
+    
+    & img {
+        
+        padding-right: 30px;
+        height: 50px;
+        
+    }
+
+    & .whitebox_flex_next{
+      
+    & p:first-child{
+        width: 100%;
+    }
+        
+    }
+}
+
+
+// block 4 Dark blue--------------------
+
+.darkblue{
+    
+    background-color: #192F48;
+    color: white;
+
+}
+
+
+.darkblue_All{
+    padding-top : 70px;
+    font-family : 'Karla';
+    font-weight : 700;
+    font-size : 15px;
+    padding-bottom: 50px;
+    
+
+& .darkblue{
+    padding-left: 10px;
+    letter-spacing :2.81px;
+    padding-bottom: 25px;
+    line-height: 17.5px;
+    }
+
+
+& .darkblue_h1{
+    font-family: 'Karla';
+    font-size: 25px;
+    letter-spacing :-2px;
+    padding-bottom: 25px;
+    
+        }
+
+
+}
+ //Card Flexbox---------------------------------------
+ .card_flex{
+     display: flex;
+     flex-direction: column;
+     padding-top: 50px;
+ }
+ .card{
+    background: #2B405A;
+    border-radius: 8px;
+    padding-left:40px;
+    
+
+    & .card_basic{
+        padding-top: 50px;
+        
+        }
+
+    & .card_text{
+        padding-top : 70px;
+        font-family : 'Karla';
+        font-weight : 700;
+        font-size : 12px;
+        color: #878B90; 
+        line-height: 23px;
+        padding-bottom: 30px;
+        }
+
+    & li {
+        padding-bottom: 2px;
+        list-style: none;
+    }
+
+    & ul {
+        padding: 0;
+    }
+
+    & span {padding-right: 15px;}
+    & p{
+        margin-top:15px;
+        font-family: 'Karla';
+        font-size: 15px;
+        font-weight: 400;
+        
+
+    }
+
+    & .card_barre{
+        color:#878B90;
+        text-decoration-line: line-through;
+    }
+
+    & .card_button {
+        
+            background: #258AFF;
+            border: none;
+            border-radius: 4px;
+            width: 200px;
+            height: 30px;
+            font-size: 12px;
+            color: white;
+        }
+
+    & .card_last{
+        padding-top : 30px;
+        font-family : 'Karla';
+        font-weight : 700;
+        font-size : 12px;
+        color:#878B90;
+        padding-bottom: 50px;
+        }
+    }
+
+
+     //Card 2 Flexbox---------------------------------------
+     
+ .white_card_flex{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    
+}
+.white_card{
+   background: white;
+   border-radius: 8px;
+   padding-left:40px;
+   
+    & .white_headerflex{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        padding-top: 50px;
+    }
+   & .white_red{
+       background: #4EAB08;
+       color: white;
+       border-radius: 20px;
+      /* padding-left:8px;
+       padding-right:8px;
+       padding-top:5px;
+       padding-bottom:8px;
+       */
+       padding: 4px 8px 4px 8px;
+       
+       
+
+       
+       
+       }
+
+   & .white_card_text{
+       padding-top : 70px;
+       font-family : 'Karla';
+       font-weight : 700;
+       font-size : 12px;
+       color: #878B90; 
+       line-height: 23px; 
+       padding-bottom: 30px;
+       }
+
+   & li {
+       padding-bottom: 2px;
+       list-style: none;
+   }
+
+   & ul {
+       padding: 0;
+   }
+
+   & span {padding-right: 15px;}
+   & p{
+       margin-top:15px;
+       font-family: 'Karla';
+       font-size: 15px;
+       font-weight: 400;
+       color: #1F1F1F;
+       
+
+   }
+
+
+   & .white_card_button {
+       
+           background: #FC593B;
+           border: none;
+           border-radius: 4px;
+           width: 200px;
+           height: 30px;
+           font-size: 12px;
+           color: white;
+       }
+
+   & .white_card_last{
+       padding-top : 30px;
+       font-family : 'Karla';
+       font-weight : 700;
+       font-size : 12px;
+       color:
+       #666666;
+       padding-bottom: 50px;
+       }
+   }
+
