@@ -43,7 +43,6 @@
         }
 
         h1 {
-            font-family: Karla;
             font-style: normal;
             font-weight: bold;
             font-size: 40px;
@@ -52,6 +51,17 @@
             letter-spacing: -4px;
 
             color: #1F1F1F;
+        }
+
+        p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 12px;
+            
+            letter-spacing: -0.32381px;
+
+            color: #878B90;
         }
 
         .enter-mail {
@@ -68,6 +78,9 @@
                 color: white;
                 padding: 7px 28px 7px 28px;
                 border: 1px;
+            }
+            & button :hover {
+                cursor: pointer;
             }
         }
     }
