@@ -1,19 +1,12 @@
 @media (min-width : 300px) and (max-width : 600px) {
 
-    @font-face {
-        font-family: Karla;
-        src: url(assets/css/font/Karla/Karla-VariableFont_wght.ttf);
-    }
-    @font-face {
-        font-family: Rubik;
-        src: url(assets/css/font.Rubik/Rubik-italic-VariableFont_wght.ttf);
-    }
-    html{
-        font-family: Karla;
-    }
+   @import url('https://fonts.googleapis.com/css2?family=Karla:ital@1&display=swap');
+    
+   @import url('https://fonts.googleapis.com/css2?family=Karla:ital@1&family=Rubik:ital@0;1&display=swap');
 
     body {
-        background: white;
+        background: #E5E5E5;
+        font-family: 'Karla';
     }
 
     .menu {
@@ -28,18 +21,16 @@
     }
 
     .shades {
-        font-family: Rubik;
+        font-family: 'Rubik';
     }
 
     div.bloc1 {
-        background-color: #ffffff;
-        display: flex;
-        justify-content: center;
+       
         text-align: center;
         
         p.services {
             
-            font-family: Karla;
+            font-family: 'Karla';
             font-style: normal;
             font-weight: bold;
             font-size: 10px;
@@ -64,18 +55,19 @@
         }
 
         .enter-mail {
-            input {
+            padding-bottom: 20px;
+            & input {
                 border-radius: 5px;
                 padding: 7px 7px 7px 7px;
-                border: 0px;
+                border: 1px;
             }
             align-content: space-between;
-            button {
+            & button {
                 background-color: #FC593B;
                 border-radius: 5px;
                 color: white;
                 padding: 7px 28px 7px 28px;
-                border: 0px;
+                border: 1px;
             }
         }
     }
