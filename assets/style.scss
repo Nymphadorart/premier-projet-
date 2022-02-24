@@ -1,19 +1,18 @@
-@media (min-width : 300px) and (max-width : 600px) {
+@media (min-width : 425px) and (max-width : 626px) {
 
    @import url('https://fonts.googleapis.com/css2?family=Karla:ital@1&display=swap');
     
    @import url('https://fonts.googleapis.com/css2?family=Karla:ital@1&family=Rubik:ital@0;1&display=swap');
 
     body {
-        background: #E5E5E5;
+        background: #E3EEF8;
         font-family: 'Karla';
     }
 
     .menu {
         display: flex;
         justify-content: flex-end;
-        margin-top: 11px;
-        margin-left: 35px;
+        margin-top: -15px;
         gap: 2px;
         &:hover {
             cursor: pointer;
@@ -25,16 +24,16 @@
     }
 
     div.bloc1 {
-       
+        margin: 50px;
         text-align: center;
         
         p.services {
             
-            font-family: 'Karla';
+            
             font-style: normal;
             font-weight: bold;
-            font-size: 10px;
-            line-height: 12px;
+            font-size: 12px;
+            line-height: 5px;
             
             letter-spacing: 2.8125px;
             text-transform: uppercase;
@@ -48,7 +47,7 @@
             font-size: 40px;
             line-height: 45px;
             
-            letter-spacing: -4px;
+            letter-spacing: -2px;
 
             color: #1F1F1F;
         }
@@ -56,12 +55,12 @@
         p {
             font-style: normal;
             font-weight: normal;
-            font-size: 10px;
-            line-height: 12px;
+            font-size: 15px;
+            line-height: 25px;
             
-            letter-spacing: -0.32381px;
+            letter-spacing: -0.4px;
 
-            color: #878B90;
+            color: #666666;
         }
 
         .enter-mail {
@@ -79,12 +78,58 @@
                 padding: 7px 28px 7px 28px;
                 border: 1px;
             }
-            & button :hover {
+            
+            & button:hover {
                 cursor: pointer;
             }
         }
     }
 
+    div.bloc2 {
+        margin-left: 150px;
+        h2{
+            position: relative ;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 32px;
+
+
+            letter-spacing: -1px;
+            color: #000000;
+        }    
+
+        img {
+            position: relative;
+            bottom: -50px;
+            left: -30px;
+        }
+    }
+
+    footer {
+        margin-top: 50px;
+        margin-left: 150px;
+        p {
+            position: relative;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 28px;
+            bottom: -30px;
+
+            letter-spacing: 0.4px;
+
+            color: #666666;
+        }
+
+        .logo-reseaux {
+            margin-top: 80px;
+            display: flex;
+            width: 15px;
+            height: 15px;
+            
+        }
+    }
 }
 
 
