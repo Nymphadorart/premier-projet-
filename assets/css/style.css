@@ -191,6 +191,19 @@ body {
 
 .whitebox_flex .whitebox_flex_next p:first-child {
   width: 100%;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.logo_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.toutleslogo {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
 }
 
 .darkblue {
@@ -239,10 +252,18 @@ body {
 
 .card .card_basic {
   padding-top: 50px;
+  font-family: 'Karla';
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.card .price {
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .card .card_text {
-  padding-top: 70px;
   font-family: 'Karla';
   font-weight: 700;
   font-size: 12px;
@@ -317,8 +338,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -329,16 +351,10 @@ body {
   background: #4EAB08;
   color: white;
   border-radius: 20px;
-  /* padding-left:8px;
-       padding-right:8px;
-       padding-top:5px;
-       padding-bottom:8px;
-       */
   padding: 4px 8px 4px 8px;
 }
 
 .white_card .white_card_text {
-  padding-top: 70px;
   font-family: 'Karla';
   font-weight: 700;
   font-size: 12px;
@@ -385,5 +401,19 @@ body {
   font-size: 12px;
   color: #666666;
   padding-bottom: 50px;
+}
+
+.card_price {
+  font-family: 'Karla';
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+}
+
+.white_price {
+  font-family: 'Karla';
+  font-size: 15px;
+  font-weight: 700;
+  color: #1F1F1F;
 }
 /*# sourceMappingURL=style.css.map */

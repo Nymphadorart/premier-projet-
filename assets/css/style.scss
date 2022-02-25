@@ -211,12 +211,20 @@ body{
       
     & p:first-child{
         width: 100%;
+        font-size: 15px;
+        font-weight: 700;
     }
         
     }
+    
 }
-
-
+.logo_flex{
+    display: flex;
+    
+}
+.toutleslogo {    
+    filter: grayscale(100%);
+}
 // block 4 Dark blue--------------------
 
 .darkblue{
@@ -267,11 +275,20 @@ body{
 
     & .card_basic{
         padding-top: 50px;
+        font-family : 'Karla';
+        font-weight : 700;
+        font-size : 13px;
+        letter-spacing: 1px;
         
         }
 
+        & .price{
+            font-size: 30px;
+            font-weight: 700;
+        }
+
     & .card_text{
-        padding-top : 70px;
+        
         font-family : 'Karla';
         font-weight : 700;
         font-size : 12px;
@@ -323,6 +340,7 @@ body{
         color:#878B90;
         padding-bottom: 50px;
         }
+       
     }
 
 
@@ -341,30 +359,24 @@ body{
    
     & .white_headerflex{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
-        
         padding-top: 50px;
     }
    & .white_red{
        background: #4EAB08;
        color: white;
        border-radius: 20px;
-      /* padding-left:8px;
-       padding-right:8px;
-       padding-top:5px;
-       padding-bottom:8px;
-       */
        padding: 4px 8px 4px 8px;
        
-       
+  
 
        
        
        }
 
    & .white_card_text{
-       padding-top : 70px;
+       
        font-family : 'Karla';
        font-weight : 700;
        font-size : 12px;
@@ -376,43 +388,55 @@ body{
    & li {
        padding-bottom: 2px;
        list-style: none;
-   }
-
-   & ul {
-       padding: 0;
-   }
-
-   & span {padding-right: 15px;}
-   & p{
-       margin-top:15px;
-       font-family: 'Karla';
-       font-size: 15px;
-       font-weight: 400;
-       color: #1F1F1F;
-       
-
-   }
-
-
-   & .white_card_button {
-       
-           background: #FC593B;
-           border: none;
-           border-radius: 4px;
-           width: 200px;
-           height: 30px;
-           font-size: 12px;
-           color: white;
+    }
+    
+    & ul {
+        padding: 0;
+    }
+    
+    & span {padding-right: 15px;}
+    & p{
+        margin-top:15px;
+        font-family: 'Karla';
+        font-size: 15px;
+        font-weight: 400;
+        color: #1F1F1F;
+        
+        
+    }
+    
+    
+    & .white_card_button {
+        
+        background: #FC593B;
+        border: none;
+        border-radius: 4px;
+        width: 200px;
+        height: 30px;
+        font-size: 12px;
+        color: white;
        }
-
-   & .white_card_last{
-       padding-top : 30px;
-       font-family : 'Karla';
-       font-weight : 700;
-       font-size : 12px;
-       color:
-       #666666;
-       padding-bottom: 50px;
-       }
-   }
-
+       
+       & .white_card_last{
+           padding-top : 30px;
+           font-family : 'Karla';
+           font-weight : 700;
+           font-size : 12px;
+           color:
+           #666666;
+           padding-bottom: 50px;
+        }
+    }
+    
+       .card_price{
+        font-family: 'Karla';
+        font-size: 15px;
+        font-weight: 700;
+        color: white;
+    } 
+    .white_price{
+        font-family: 'Karla';
+        font-size: 15px;
+        font-weight: 700;
+        color: #1F1F1F;
+    } 
