@@ -105,7 +105,31 @@
             left: -30px;
         }
     }
-
+    footer {
+        margin-top: 50px;
+        margin-left: 150px;
+        p {
+            position: relative;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 28px;
+            bottom: -30px;
+    
+            letter-spacing: 0.4px;
+    
+            color: #666666;
+        }
+    
+        .logo-reseaux {
+            margin-top: 80px;
+            display: flex;
+            width: 15px;
+            height: 15px;
+            
+        }
+    }
+}
 
 
 
