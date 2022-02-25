@@ -1,0 +1,113 @@
+@media (min-width : 425px) and (max-width : 626px) {
+
+   @import url('https://fonts.googleapis.com/css2?family=Karla:ital@1&display=swap');
+    
+   @import url('https://fonts.googleapis.com/css2?family=Karla:ital@1&family=Rubik:ital@0;1&display=swap');
+
+    body {
+        background: #E3EEF8;
+        font-family: 'Karla';
+    }
+
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -15px;
+        gap: 2px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .shades {
+        font-family: 'Rubik';
+    }
+
+    div.bloc1 {
+        margin: 50px;
+        text-align: center;
+        
+        p.services {
+            
+            
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 5px;
+            
+            letter-spacing: 2.8125px;
+            text-transform: uppercase;
+            
+            color: #666666;
+        }
+
+        h1 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 45px;
+            
+            letter-spacing: -2px;
+
+            color: #1F1F1F;
+        }
+
+        p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 25px;
+            
+            letter-spacing: -0.4px;
+
+            color: #666666;
+        }
+
+        .enter-mail {
+            padding-bottom: 20px;
+            & input {
+                border-radius: 5px;
+                padding: 7px 7px 7px 7px;
+                border: 1px;
+            }
+            align-content: space-between;
+            & button {
+                background-color: #FC593B;
+                border-radius: 5px;
+                color: white;
+                padding: 7px 28px 7px 28px;
+                border: 1px;
+            }
+            
+            & button:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    div.bloc2 {
+        margin-left: 150px;
+        h2{
+            position: relative ;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 32px;
+
+
+            letter-spacing: -1px;
+            color: #000000;
+        }    
+
+        img {
+            position: relative;
+            bottom: -50px;
+            left: -30px;
+        }
+    }
+
+
+
+
+
+
