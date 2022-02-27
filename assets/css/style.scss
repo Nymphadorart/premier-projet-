@@ -31,7 +31,7 @@ body{
 .under_All{
     font-family: 'Karla';
     font-weight: 700;
-    font-size: 15x;
+    font-size: 15px;
     padding-bottom: 50px;
     color: white;
 
@@ -158,10 +158,12 @@ body{
 .white_img{
     display: flex;
     justify-content: center;
+    padding-bottom: 50px;
 
     & img{
         width: 70%;
-        padding-bottom: 30px;
+        
+        border-radius: 15px;     
         
     }
 }
@@ -372,12 +374,14 @@ body{
     display: flex;
     flex-direction: column;
     padding-top: 50px;
+    padding-bottom: 50px;
     
 }
 .white_card{
    background: white;
    border-radius: 8px;
    padding-left:40px;
+   
    
     & .white_headerflex{
         display: grid;

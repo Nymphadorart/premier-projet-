@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Karla:ital@1&family=Rubik:ital@0;1&display=swap");
-@media (min-width: 425px) and (max-width: 626px) {
+@media (min-width: 100px) and (max-width: 626px) {
   body {
     background: #E3EEF8;
     font-family: 'Karla';

@@ -20,7 +20,7 @@ body {
 .under_All {
   font-family: 'Karla';
   font-weight: 700;
-  font-size: 15x;
+  font-size: 15px;
   padding-bottom: 50px;
   color: white;
 }
@@ -140,11 +140,12 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-bottom: 50px;
 }
 
 .white_img img {
   width: 70%;
-  padding-bottom: 30px;
+  border-radius: 15px;
 }
 
 .white_line {
@@ -359,6 +360,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .white_card {
