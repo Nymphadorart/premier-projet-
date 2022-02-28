@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Karla:ital@1&family=Rubik:ital@0;1&display=swap");
-@media (min-width: 425px) and (max-width: 626px) {
+@media (min-width: 320px) and (max-width: 626px) {
   body {
     background: #E3EEF8;
     font-family: 'Karla';
@@ -91,11 +91,11 @@
     margin-top: 50px;
     margin-left: 150px;
   }
-  footer p {
+  footer p.par {
     position: relative;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 28px;
     bottom: -30px;
     letter-spacing: 0.4px;
@@ -103,11 +103,41 @@
   }
   footer .logo-reseaux {
     margin-top: 80px;
+    margin-bottom: 35px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     width: 15px;
     height: 15px;
+    gap: 10px;
+  }
+  footer .blocfoot {
+    margin-bottom: 35px;
+  }
+  footer .blocfoot .titre {
+    padding-top: 16px;
+    height: 16px;
+    left: 0%;
+    right: 25.81%;
+    top: calc(50% - 16px/2 - 105.5px);
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.4px;
+    color: #666666;
+  }
+  footer .blocfoot p {
+    height: 16px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 160px/2 - 7.5px);
+    margin-bottom: 25px;
+    font-style: bolder;
+    font-size: 15px;
+    font-weight: bolder;
+    line-height: 40px;
+    letter-spacing: -0.4px;
+    color: #1F1F1F;
   }
 }
 /*# sourceMappingURL=style.css.map */
