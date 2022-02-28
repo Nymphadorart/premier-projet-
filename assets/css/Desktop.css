@@ -45,13 +45,12 @@
     font-size: 1.6em;
   }
   .under_text {
-    width: 430px;
+    width: 460px;
     color: #E4E4E4;
     font-size: 1.2em;
   }
   .under_button {
-    padding: 0 30px 0 30px;
-    width: 0.5em;
+    height: 4em;
   }
 }
 /*# sourceMappingURL=Desktop.css.map */
