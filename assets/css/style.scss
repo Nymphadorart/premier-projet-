@@ -13,6 +13,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #E3EEF8;
     
 }
 
@@ -79,7 +80,7 @@ body{
 
  // section 3 --------------------------------   
 .white {
-    background: #E5E5E5;
+    background: #E3EEF8;;
   }
 //Tout le texte du bloc 3eme section-------------------------
 
@@ -185,11 +186,19 @@ body{
 
 // section 3 copier coller css de la 2 --------------
 
+.white_second{
+    background: #E3EEF8;
+}
 .white_h2 {
 
     width: 200px;
 }
-// blox flex en blanc ---------------
+
+
+// block version desktop ----------------------------------------------------------------
+.desktop{
+    display:none;}
+// blox flex en blanc ----------------------------------
 
 .flex{
     padding-bottom: 50px;
@@ -227,8 +236,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
-    grid-auto-flow: row;
-    
+    padding-bottom: 100px ;
    & .items4{
        align-self: center;
        width: 110%;

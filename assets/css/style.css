@@ -6,6 +6,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #E3EEF8;
 }
 
 .container {
@@ -59,7 +60,7 @@ body {
 }
 
 .white {
-  background: #E5E5E5;
+  background: #E3EEF8;
 }
 
 .white_All {
@@ -163,8 +164,16 @@ body {
   width: 300px;
 }
 
+.white_second {
+  background: #E3EEF8;
+}
+
 .white_h2 {
   width: 200px;
+}
+
+.desktop {
+  display: none;
 }
 
 .flex {
@@ -203,7 +212,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  grid-auto-flow: row;
+  padding-bottom: 100px;
 }
 
 .logo_grid .items4 {
