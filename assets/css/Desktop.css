@@ -96,10 +96,13 @@
     width: 500px;
     height: 600px;
   }
+<<<<<<< HEAD
   .white_h2 {
     width: 400px;
     font-size: 38px;
   }
+=======
+>>>>>>> development
   .line {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -153,6 +156,7 @@
     display: -ms-flexbox;
     display: flex;
   }
+<<<<<<< HEAD
   .logo_grid .items1 {
     padding-right: 80px;
   }
@@ -197,5 +201,10 @@
     width: 600px;
     padding-left: 280px;
   }
+=======
+  .grid-items {
+    padding-left: 10px;
+  }
+>>>>>>> development
 }
 /*# sourceMappingURL=Desktop.css.map */

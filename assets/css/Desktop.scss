@@ -57,33 +57,63 @@
  }
     
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> development
 /* DESIGN IS EVERYTHING */
 
 .white{
     display: flex;
     flex-direction: row;
     font-size: 0.938em;
+<<<<<<< HEAD
 
     & .white_flex1{
        width: 600px;
+=======
+    
+
+
+    & .white_flex1{
+       width: 600px;
+        
+        
+>>>>>>> development
     }
 
     & .white_flex{
         display: flex;
         flex-direction:row;
+<<<<<<< HEAD
         justify-content: space-between;  
+=======
+        justify-content: space-between;
+
+        
+        
+        
+>>>>>>> development
     }
 
     & .white_h1{
         font-size: 3em;
         line-height: 1;
     }
+<<<<<<< HEAD
 
    
+=======
+>>>>>>> development
     & .white_flexbox{
         text-align: left;
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> development
     & .white_img{
         display: flex;
         align-self: center;
@@ -94,11 +124,14 @@
     }
 
 }
+<<<<<<< HEAD
 .white_h2 {
 
     width: 400px;
     font-size: 38px;
 }
+=======
+>>>>>>> development
 
 .line{
     display: flex;
@@ -149,6 +182,7 @@
 .logo_grid{
     display: flex;
 
+<<<<<<< HEAD
     & .items1{
     padding-right: 80px;
     }
@@ -205,3 +239,14 @@
 // fin du media queries
  }
 
+=======
+}
+ .grid-items{
+    padding-left:10px;
+    
+ }
+
+
+// fin du media queries
+ }
+>>>>>>> development
