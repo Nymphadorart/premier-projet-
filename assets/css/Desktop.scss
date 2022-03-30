@@ -4,19 +4,11 @@
 }
 
 @media (min-width: 627px) and (max-width: 1440px) {
-/* essai si ca marche 
-.under_background_telephone{
-    background-color: black;
-}*/
-
-
 
 .container{
     margin-left:10%;
     margin-right: 10%;
-}
-
-
+    }
 
     .grid_under{
         display: grid;
@@ -38,82 +30,59 @@
  .under{
     display: inline;
      font-size: 0.94em;
- }
+    }
 
  .under_h1{
     width: 300px;
      padding-top: 50px;
      font-size: 1.6em;
- }
+    }
 
  .under_text{
     width: 460px;
      color: #E4E4E4;
      font-size: 1.2em;
- }
+    }
 
  .under_button{
      height: 4em;
- }
+    }
     
 
-<<<<<<< HEAD
-=======
 
 
->>>>>>> development
+
+
+
 /* DESIGN IS EVERYTHING */
 
-.white{
+.white{ 
     display: flex;
     flex-direction: row;
     font-size: 0.938em;
-<<<<<<< HEAD
-
-    & .white_flex1{
-       width: 600px;
-=======
-    
 
 
     & .white_flex1{
        width: 600px;
-        
-        
->>>>>>> development
+
     }
-
     & .white_flex{
         display: flex;
         flex-direction:row;
-<<<<<<< HEAD
         justify-content: space-between;  
-=======
-        justify-content: space-between;
 
-        
-        
-        
->>>>>>> development
     }
 
     & .white_h1{
         font-size: 3em;
         line-height: 1;
     }
-<<<<<<< HEAD
 
-   
-=======
->>>>>>> development
     & .white_flexbox{
         text-align: left;
     }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> development
     & .white_img{
         display: flex;
         align-self: center;
@@ -124,21 +93,20 @@
     }
 
 }
-<<<<<<< HEAD
+
 .white_h2 {
 
     width: 400px;
     font-size: 38px;
-}
-=======
->>>>>>> development
+    }
+
 
 .line{
     display: flex;
     justify-content: center ;
     height: 3px;
     width: 1000px!important;
-}
+    }
 
 
 
@@ -147,12 +115,12 @@
 .flex_customer{
     padding-top: 150px;
 
-}
+    }
 .flexCustomerCard{
     display:flex;
     flex-direction: row;
     align-self: center;
-}
+    }
 
 
 .flex_customer{
@@ -160,21 +128,21 @@
     flex-direction: column;
     
     
-}
+    }
 
 .Card_flex_comment{
     padding-top: 100px;
-}
+    }
 
 .flexLastCard{
     padding-top: 90px;
-}
+    }
 
 
 .flex{
     display: flex;
     flex-direction: column;
-}
+    }
 
 
 //img des marques
@@ -182,7 +150,7 @@
 .logo_grid{
     display: flex;
 
-<<<<<<< HEAD
+
     & .items1{
     padding-right: 80px;
     }
@@ -234,19 +202,16 @@
     width: 600px;
     padding-left: 280px;
     
-}
-}
-// fin du media queries
- }
+    }
 
-=======
 }
+
  .grid-items{
     padding-left:10px;
     
- }
+    }
 
 
 // fin du media queries
  }
->>>>>>> development
+
